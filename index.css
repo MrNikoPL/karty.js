@@ -1,0 +1,33 @@
+body {
+    background: radial-gradient(#0f2027, #203a43, #2c5364 160vw);
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#rozdaj {
+    padding: 5px;
+    border-radius: 5px;
+    width: 600px;
+    float: right;
+}
+
+#karty {
+    position: absolute;
+    bottom: -50px;
+    background-color: #9e9e9e33;
+    width: 100%;
+    height: 30vh;
+    border-radius: 5px;
+    font-family: roboto;
+    font-size: 50px;
+    text-align: center;
+    color: #bbbbbbbb;
+}
+#flash {
+    position: absolute;
+    top: 500px;
+    width: 200px;
+    height: 350px;
+    background-color: #eeeeee;
+}
